@@ -21,29 +21,3 @@ function postsListHTML(posts) {
 
     postsList.insertAdjacentHTML('beforeend', post);
 }
-
-
-// $(function(){
-//     var root = 'https://jsonplaceholder.typicode.com';
-//     var $posts = $('#posts-list');
-//
-//     $.ajax({
-//         url: root + '/posts/1',
-//         method: 'GET',
-//         data: { get_param: 'value' },
-//         success: function(posts) {
-//             $.each(posts, function (index, post) {
-//                 $posts.append($('<li>', {
-//                     text: post.body
-//                 }));
-//             })
-//         }
-//     }).then(function(data) {
-//         console.log(data);
-//
-//     });
-//
-//
-// });
-
-
